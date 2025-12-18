@@ -14,6 +14,20 @@ body {
   padding: 0 40px; /* Left & right margin increased */
 }
 
+.bg-FOG {
+  background-image: url('../img/FOG.jpg');
+  background-size: cover;
+}
+.bg-clear_sky{
+  background-image: url('../img/clear_sky.jpg');
+  background-size: cover;
+}
+.bg-rainy_sky{
+  background-image: url('../img/rainy_sky.jpg');
+  background-size: cover;
+}
+
+
 /* 🔝 Header */
 .top-bar {
   width: 100%;
