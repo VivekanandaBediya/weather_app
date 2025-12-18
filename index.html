@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+    <div class="app">
+        <h1>🌤 Weather App</h1>
+
+        <input type="text" id="city" placeholder="Enter city name">
+        <input type="text" id="state" placeholder="Enter state Code">
+        <input type="text" id="country" placeholder="Enter country code">
+
+        <button onclick="fetchData()">Get Weather</button>
+
+        <div id="output_result">
+            <p>City : <h1><span id="city_name"></span>,<span id="country_name"></span></h1></p>
+            <p>Sunrise :<span id="sunrise"></span> </p>
+            <p>Sunset : <span id="sunset"></span></p>
+            <p>Temp : <span id="temp"></span></p>  
+            <p>Weather : <span id="weather_desc"></span></p>
+            <p>Wind Speed : <span id="wind_speed"></span></p>
+            <p>Humidity : <span id="humidity"></span></p>
+            <p>Feels like : <span id="feels_like"></span></p>
+            <p>Air Condition : <span id="pressure"></span></p>
+            
+        </div>
+
+        <div class="weather-result">
+            <h2>New Delhi, IN</h2>
+            <p class="temp">28°C</p>
+            <p class="desc">Clear Sky</p>
+
+            <div class="details">
+                <span>Humidity: 60%</span>
+                <span>Wind: 5 km/h</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+
+
+API Key(openweathermap) : http://api.openweathermap.org/geo/1.0/direct?q={city name},{state code},{country code}&limit={limit}&appid={API key}
+
+example:
+1.http://api.openweathermap.org/geo/1.0/direct?q=Delhi,DL,IN&limit=1&appid=86172535ea5859db60396039ab393716 (ok)- getting the longitude and latitude then next-->
+"lat": 28.6517178,
+        "lon": 77.2219388,
+        "country": "IN",
+        "state": "Delhi"
+
+
+`````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+API Key(openweathermap) : https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid=86172535ea5859db60396039ab393716
+
+example:
+2.https://api.openweathermap.org/data/2.5/weather?lat=28.6517178&lon=77.2219388&appid=86172535ea5859db60396039ab393716

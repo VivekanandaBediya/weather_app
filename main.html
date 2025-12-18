@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <!-- 🔝 Header -->
+  <header class="top-bar">
+    <h1 class="logo">🌤 Weather App</h1>
+
+    <form class="search-form">
+      <input type="text" placeholder="City" required>
+      <input type="text" placeholder="State">
+      <input type="text" placeholder="Country" required>
+      <button type="submit">Search</button>
+    </form>
+  </header>
+
+  <!-- 🌦 Center Weather Card -->
+  <main class="main">
+    <div class="weather-card">
+      <h2 class="location">New Delhi, IN</h2>
+
+      <div class="main-temp">
+        <span class="temp">19°C</span>
+        <span class="desc">Clear Sky</span>
+        <span class="feels">Feels like 19°C</span>
+      </div>
+
+      <div class="weather-details">
+        <div class="detail">
+          <span class="label">💨 Wind</span>
+          <span class="value">4 km/h</span>
+        </div>
+
+        <div class="detail">
+          <span class="label">💧 Humidity</span>
+          <span class="value">62%</span>
+        </div>
+
+        <div class="detail">
+          <span class="label">🌬 Pressure</span>
+          <span class="value">1017 hPa</span>
+        </div>
+      </div>
+    </div>
+  </main>
+
+</body>
+</html>
