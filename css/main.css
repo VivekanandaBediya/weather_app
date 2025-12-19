@@ -17,14 +17,17 @@ body {
 .bg-FOG {
   background-image: url('../img/FOG.jpg');
   background-size: cover;
+  background-position: center;
 }
 .bg-clear_sky{
   background-image: url('../img/clear_sky.jpg');
   background-size: cover;
+  background-position: center;
 }
 .bg-rainy_sky{
   background-image: url('../img/rainy_sky.jpg');
   background-size: cover;
+  background-position: center;
 }
 
 
