@@ -121,14 +121,17 @@ async function fetchData(){
     document.getElementById("location").innerHTML = `${name} ,${cntry}`;
 
     if(weather === "clear sky"){                         //Shillong
+        document.body.className = "";
         document.body.classList.add("bg-clear_sky") 
         document.getElementById("sun_logo").innerHTML = '<i class="fa-solid fa-cloud-sun" style="color: white"></i>';
 
-    }else if(weather === "fog" || "mist"){                //RANCHI, GURUGRAM
+    }else if(weather === "fog" || weather === "mist"){                //RANCHI, GURUGRAM
+        document.body.className = "";
         document.body.classList.add("bg-FOG")
         document.getElementById("sun_logo").innerHTML = '<i class="fa-solid fa-cloud" style="color: white"></i>'
-
-    }else if(weather === "rainy"){
+        
+    }else if(weather === "rainy" || weather === "overcast clouds" || weather === "broken clouds"){
+        document.body.className = "";
         document.body.classList.add("bg-rainy_sky")
         document.getElementById("sun_logo").innerHTML = '<i class="fa-solid fa-cloud-sun-rain" style="color: white;"></i>';
 
